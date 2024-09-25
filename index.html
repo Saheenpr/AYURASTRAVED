@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AYURASTRVEDA Virtual Herbal Garden</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>AYURASTRVEDA's Virtual Garden</h1>
+    </header>
+    <main>
+        <div id="garden-container">
+            <div class="plant" data-name="Basil" data-scientific="Ocimum basilicum" data-uses="Culinary, Medicinal" data-origin="India" style="left: 100px; top: 150px;"></div>
+            <div class="plant" data-name="Mint" data-scientific="Mentha" data-uses="Culinary, Digestive Aid" data-origin="Asia" style="left: 300px; top: 200px;"></div>
+            <!-- Add more plants as needed -->
+        </div>
+        <div id="info-box">
+            <h2>Plant Information</h2>
+            <p id="plant-details"></p>
+        </div>
+        <div id="filter-options">
+            <h2>Filter Herbs</h2>
+            <button onclick="filterByType('medicinal')">Medicinal</button>
+            <button onclick="filterByType('rare')">Rare Species</button>
+            <button onclick="filterByType('region')">By Region</button>
+        </div>
+    </main>
+    <footer>
+        <p>Engage your knowledge with quizzes and explore our latest additions!</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
